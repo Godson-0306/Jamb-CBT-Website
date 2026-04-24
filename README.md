@@ -23,17 +23,17 @@ There is:
 - `index.html` - app structure
 - `styles.css` - styling
 - `app.js` - CBT logic and randomized questions
-- `server.js` - lightweight local server
+- `local-server.js` - lightweight local preview server
 
 ## Deploy To Vercel
 
-This project is deployed on Vercel as a static site.
+This project should be deployed on Vercel as a static site.
 
 ### Why
 
 - `index.html`, `styles.css`, and `app.js` contain the full app
 - there is no database or backend dependency for production
-- `server.js` is only for local preview
+- `local-server.js` is only for local preview
 
 ### Vercel setup
 
