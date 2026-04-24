@@ -24,3 +24,33 @@ There is:
 - `styles.css` - styling
 - `app.js` - CBT logic and randomized questions
 - `server.js` - lightweight local server
+
+## Deploy To Vercel
+
+This project is deployed on Vercel as a static site.
+
+### Why
+
+- `index.html`, `styles.css`, and `app.js` contain the full app
+- there is no database or backend dependency for production
+- `server.js` is only for local preview
+
+### Vercel setup
+
+1. Push this repo to GitHub
+2. Import the repo into Vercel
+3. Use these project settings if Vercel asks:
+   - Framework Preset: `Other`
+   - Build Command: leave empty
+   - Output Directory: leave empty
+4. Deploy
+
+Vercel will serve the root static files directly, with `/` mapped to `index.html`.
+
+### Local preview
+
+Run:
+`npm run dev`
+
+Then open:
+`http://localhost:3000`
