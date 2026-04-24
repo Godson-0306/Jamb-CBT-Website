@@ -1,0 +1,7 @@
+{
+  "name": "jamb-cbt",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}
